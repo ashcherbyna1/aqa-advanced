@@ -1,11 +1,11 @@
-const string = "Test string";
-console.log(string);
+const stringValue = "Test string";
+console.log(stringValue);
 
-const bool = true;
-console.log(bool);
+const boolValue = true;
+console.log(boolValue);
 
-const num = 42;
-console.log(num);
+const numValue = 42;
+console.log(numValue);
 
 const nullValue = null;
 console.log(nullValue);
