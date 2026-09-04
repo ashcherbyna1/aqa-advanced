@@ -1,6 +1,6 @@
 // 4.1
 
-const piNumber = 3.14159;
+const piNumber = Math.PI;
 const radiusCircle = 5;
 
 const area = piNumber * radiusCircle * radiusCircle;
