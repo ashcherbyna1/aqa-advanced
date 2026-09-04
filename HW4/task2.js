@@ -1,9 +1,9 @@
-const ActorName = "Robert Downey Jr.";
-const ActorName2 = "Tom Holland";
-const ActorName3 = "Zendaya";
+const actorName = "Robert Downey Jr.";
+const actorName2 = "Tom Holland";
+const actorName3 = "Zendaya";
 
-const greeting1 = `Hello, ${ActorName}, ${ActorName2}, and ${ActorName3}! Welcome to the movie.`;
+const greeting1 = `Hello, ${actorName}, ${actorName2}, and ${actorName3}! Welcome to the movie.`;
 console.log(greeting1);
 
-const greeting2 = "Hello, " + ActorName + ", " + ActorName2 + ", and " + ActorName3 + "! Welcome to the movie.";
+const greeting2 = "Hello, " + actorName + ", " + actorName2 + ", and " + actorName3 + "! Welcome to the movie.";
 console.log(greeting2);
