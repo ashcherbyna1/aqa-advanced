@@ -1,5 +1,4 @@
-
-const string = "Test string"
+const string = "Test string";
 console.log(string);
 
 const bool = true;

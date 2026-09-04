@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ashcherbyna1/aqa-advanced#readme",
   "dependencies": {
     "chalk": "^5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
   }
 }

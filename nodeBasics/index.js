@@ -1,3 +1,3 @@
-import chalk from 'chalk';
+import chalk from "chalk";
 
-console.log(chalk.red('Hello! This is my colored text!'));
+console.log(chalk.red("Hello! This is my colored text!"));
