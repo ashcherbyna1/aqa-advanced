@@ -1,6 +1,5 @@
-
 function onEvenNumber(num) {
-    console.log(`${num} is an even number`); 
+    console.log(`${num} is an even number`);
 }
 
 function onOddNumber(num) {
