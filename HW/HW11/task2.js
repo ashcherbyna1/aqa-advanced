@@ -37,11 +37,11 @@ let firstResolvedPromise;
 Promise.all([getTodo(), getUser()]).then(([todo, user]) => {
     todoPromise = todo;
     userPromise = user;
-    console.log('Todo:', todo);
-    console.log('User:', user);
+    console.log('Todo:', todoPromise);
+    console.log('User:', userPromise);
 });
 
 Promise.race([getTodo(), getUser()]).then((result) => {
     firstResolvedPromise = result;
-    console.log('First resolved promise:', result);
+    console.log('First resolved promise:', firstResolvedPromise);
 });
